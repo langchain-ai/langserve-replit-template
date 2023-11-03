@@ -1,7 +1,7 @@
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 hidden = [".pythonlibs"]
-run = "langserve serve"
+run = "langchain serve"
 onBoot = "pip install -U langchain-cli"
 
 [nix]
@@ -11,5 +11,5 @@ channel = "stable-23_05"
 language = "python3"
 
 [deployment]
-run = ["sh", "-c", "langserve serve"]
+run = ["sh", "-c", "langchain serve"]
 deploymentTarget = "cloudrun"
