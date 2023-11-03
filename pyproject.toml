@@ -16,7 +16,6 @@ langserve = ">=0.0.16"
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
 pygithub = "^2.1.1"
-langchain-cli = "^0.0.15"
 
 
 [build-system]
