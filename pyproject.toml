@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langservehub-template"
+name = "langchain-replit-template"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -10,12 +10,13 @@ python = "^3.11"
 sse-starlette = "^1.6.5"
 tomli-w = "^1.0.0"
 uvicorn = "^0.23.2"
-fastapi = "^0.103.2"
+fastapi = ">=0.104.0"
 langserve = ">=0.0.16"
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
 pygithub = "^2.1.1"
+langchain-cli = "^0.0.15"
 
 
 [build-system]
