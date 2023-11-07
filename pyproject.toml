@@ -12,6 +12,7 @@ tomli-w = "^1.0.0"
 uvicorn = "^0.23.2"
 fastapi = ">=0.104.0"
 langserve = ">=0.0.16"
+pirate-speak = {path = "./packages/pirate-speak", develop = true}
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.23.2"
