@@ -1,8 +1,8 @@
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 hidden = [".pythonlibs"]
-run = "pip install -U langchain-cli && langchain serve"
-onBoot = "pip install -U langchain-cli"
+run = "pip install -U langchain-cli && poetry install && langchain serve --host 0.0.0.0"
+onBoot = "pip install -U langchain-cli && poetry install"
 entrypoint = "main.py"
 
 [nix]
